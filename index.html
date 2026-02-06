@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frederick Nyolke Irungu - Computer Science Portfolio showcasing academic journey and technical expertise">
+    <title>Frederick Nyolke Irungu | Tech Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Quantum Grid Background -->
+    <div class="quantum-grid"></div>
+    
+    <!-- Navigation -->
+    <nav class="cyber-nav">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i> FREDERICK_Ir
+            </a>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="childhood.html">CHILDHOOD</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="skills.html">SKILLS</a></li>
+                <li><a href="future.html">FUTURE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content fade-in-left">
+                <p style="color: var(--cyber-gray); font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 2px;">
+                    <i class="fas fa-terminal" style="color: var(--matrix-green);"></i> Hello World, I am
+                </p>
+                <h1>FREDERICK NYOIKE IRUNGU</h1>
+                <div class="hero-typing"></div>
+                <p class="hero-subtitle fade-in-left delay-1">
+                    A dedicated Software Engineering Student at Kirinyaga University specializing in 
+                    quantum computing, artificial intelligence, and cybersecurity. Passionate about 
+                    leveraging technology to solve complex real-world problems and drive innovation 
+                    in Kenya's growing tech ecosystem.
+                </p>
+                
+                <div class="hero-buttons fade-in-left delay-2" style="display: flex; gap: 1.5rem; margin-top: 3rem;">
+                    <a href="contact.html" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </a>
+                    <a href="#journey" class="btn btn-secondary">
+                        <i class="fas fa-arrow-down"></i> Explore Journey
+                    </a>
+                    <a href="https://wa.me/254701723500" target="_blank" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp: 0701723500
+                    </a>
+                </div>
+                
+                <div class="quick-stats fade-in-left delay-3" style="margin-top: 3rem; display: flex; gap: 2rem; flex-wrap: wrap;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--matrix-green);">3+</div>
+                        <div style="color: var(--cyber-gray); font-size: 0.9rem;">Years Experience</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--quantum-blue);">15+</div>
+                        <div style="color: var(--cyber-gray); font-size: 0.9rem;">Projects Completed</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--neon-purple);">5</div>
+                        <div style="color: var(--cyber-gray); font-size: 0.9rem;">Certifications</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--hologram-teal);">A</div>
+                        <div style="color: var(--cyber-gray); font-size: 0.9rem;">Current GPA</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Profile Image -->
+            <div class="profile-image-container fade-in-right">
+                <div class="profile-image-wrapper">
+                    <!-- YOUR PROFILE IMAGE -->
+                    <img src="images/profile.jpg.jpeg" alt="Frederick Nyolke Irungu" class="profile-img" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x400/00ff9d/0a0e17?text=FN';">
+                </div>
+                <div style="text-align: center; margin-top: 1.5rem;">
+                    <h3 style="color: var(--terminal-text); margin-bottom: 0.5rem;">Frederick Nyolke Irungu</h3>
+                    <p style="color: var(--cyber-gray); font-size: 0.9rem;">
+                        <i class="fas fa-map-marker-alt" style="margin-right: 0.5rem;"></i>
+                        Nairobi, Kenya
+                    </p>
+                    <p style="color: var(--matrix-green); font-size: 0.85rem; margin-top: 0.5rem;">
+                        <i class="fas fa-university" style="margin-right: 0.5rem;"></i>
+                        Kirinyaga University
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Journey Overview -->
+            <section id="journey" class="tech-card fade-in-up">
+                <h2 class="card-title">My Digital Odyssey</h2>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                    <div>
+                        <h3 style="color: var(--quantum-blue); margin-bottom: 1rem; display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-microchip"></i> The Kenyan Tech Journey
+                        </h3>
+                        <p style="color: var(--cyber-gray); line-height: 1.8;">
+                            Growing up in Kenya during the digital revolution, I witnessed firsthand how 
+                            technology transforms societies. From M-Pesa's mobile banking innovation to 
+                            Nairobi's Silicon Savannah, these experiences shaped my vision for using 
+                            technology to solve African challenges with global relevance.
+                        </p>
+                        <a href="childhood.html" class="btn btn-secondary" style="margin-top: 1.5rem; padding: 0.8rem 1.5rem;">
+                            Explore Childhood <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <h3 style="color: var(--matrix-green); margin-bottom: 1rem; display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-graduation-cap"></i> Kirinyaga University Excellence
+                        </h3>
+                        <p style="color: var(--cyber-gray); line-height: 1.8;">
+                            Currently pursuing a Computer Science degree at Kirinyaga University with 
+                            specialization in Artificial Intelligence and Cybersecurity. My academic 
+                            journey combines theoretical knowledge with practical applications through 
+                            research projects addressing local agricultural and fintech challenges.
+                        </p>
+                        <a href="education.html" class="btn btn-secondary" style="margin-top: 1.5rem; padding: 0.8rem 1.5rem;">
+                            View Education <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Current Focus -->
+            <section class="tech-card fade-in-up delay-1">
+                <h2 class="card-title">Current Technical Focus</h2>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                    <div style="text-align: center; padding: 1.5rem; background: rgba(0, 180, 255, 0.05); border-radius: 10px; border: 1px solid rgba(0, 180, 255, 0.2);">
+                        <div style="font-size: 2.5rem; color: var(--quantum-blue); margin-bottom: 1rem;">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 style="color: var(--terminal-text); margin-bottom: 0.5rem;">AI for Agriculture</h3>
+                        <p style="color: var(--cyber-gray); font-size: 0.9rem;">
+                            Developing machine learning models for crop disease detection and yield 
+                            prediction tailored for Kenyan small-scale farmers.
+                        </p>
+                    </div>
+                    
+                    <div style="text-align: center; padding: 1.5rem; background: rgba(0, 255, 157, 0.05); border-radius: 10px; border: 1px solid rgba(0, 255, 157, 0.2);">
+                        <div style="font-size: 2.5rem; color: var(--matrix-green); margin-bottom: 1rem;">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 style="color: var(--terminal-text); margin-bottom: 0.5rem;">Fintech Security</h3>
+                        <p style="color: var(--cyber-gray); font-size: 0.9rem;">
+                            Implementing security protocols and fraud detection systems for mobile 
+                            banking applications in the Kenyan market.
+                        </p>
+                    </div>
+                    
+                    <div style="text-align: center; padding: 1.5rem; background: rgba(157, 78, 221, 0.05); border-radius: 10px; border: 1px solid rgba(157, 78, 221, 0.2);">
+                        <div style="font-size: 2.5rem; color: var(--neon-purple); margin-bottom: 1rem;">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3 style="color: var(--terminal-text); margin-bottom: 0.5rem;">Quantum Research</h3>
+                        <p style="color: var(--cyber-gray); font-size: 0.9rem;">
+                            Researching quantum computing applications for optimization problems 
+                            relevant to logistics and supply chain management in East Africa.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Project -->
+            <section class="tech-card fade-in-up delay-2">
+                <h2 class="card-title">Featured Project: AgriTech AI Assistant</h2>
+                
+                <div style="display: flex; gap: 2rem; flex-wrap: wrap; align-items: center; margin-top: 1.5rem;">
+                    <div style="flex: 1; min-width: 300px;">
+                        <p style="color: var(--cyber-gray); margin-bottom: 1.5rem; line-height: 1.8;">
+                            Developed a mobile application that uses computer vision to identify crop 
+                            diseases from smartphone photos. The app provides treatment recommendations, 
+                            connects farmers with agricultural experts, and offers market price insights. 
+                            Built with React Native, TensorFlow Lite, and integrated with M-Pesa for 
+                            microloan applications.
+                        </p>
+                        
+                        <div style="display: flex; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
+                            <span style="background: rgba(0, 180, 255, 0.1); color: var(--quantum-blue); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; border: 1px solid rgba(0, 180, 255, 0.3);">
+                                React Native
+                            </span>
+                            <span style="background: rgba(0, 255, 157, 0.1); color: var(--matrix-green); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; border: 1px solid rgba(0, 255, 157, 0.3);">
+                                TensorFlow
+                            </span>
+                            <span style="background: rgba(157, 78, 221, 0.1); color: var(--neon-purple); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; border: 1px solid rgba(157, 78, 221, 0.3);">
+                                Python
+                            </span>
+                            <span style="background: rgba(255, 71, 87, 0.1); color: #ff4757; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; border: 1px solid rgba(255, 71, 87, 0.3);">
+                                Firebase
+                            </span>
+                        </div>
+                        
+                        <div style="display: flex; gap: 1rem;">
+                            <a href="skills.html" class="btn btn-primary">
+                                <i class="fas fa-code"></i> View All Projects
+                            </a>
+                            <a href="https://github.com/frederick-nyoike/agritech-ai" target="_blank" class="btn btn-secondary">
+                                <i class="fab fa-github"></i> GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div style="flex: 1; min-width: 300px;">
+                        <div class="image-container">
+                            <!-- Placeholder for project image -->
+                            <div style="width: 100%; height: 100%; background: linear-gradient(45deg, var(--quantum-dark), var(--cyber-navy)); display: flex; align-items: center; justify-content: center; color: var(--matrix-green); font-size: 1.5rem; font-weight: 700; text-align: center; padding: 2rem;">
+                                AGRI-TECH AI<br>FOR KENYAN FARMERS
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- University Recognition -->
+            <section class="tech-card fade-in-up delay-3">
+                <h2 class="card-title">Kirinyaga University Recognition</h2>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                    <div style="text-align: center; padding: 1.5rem; background: rgba(0, 255, 157, 0.05); border-radius: 10px; border: 1px solid rgba(0, 255, 157, 0.2);">
+                        <div style="font-size: 2.5rem; color: var(--matrix-green); margin-bottom: 1rem;">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3 style="color: var(--terminal-text); margin-bottom: 0.5rem;">Top Performer</h3>
+                        <p style="color: var(--cyber-gray); font-size: 0.9rem;">
+                            Ranked among top 5% in Computer Science Department for three consecutive semesters.
+                        </p>
+                    </div>
+                    
+                    <div style="text-align: center; padding: 1.5rem; background: rgba(0, 180, 255, 0.05); border-radius: 10px; border: 1px solid rgba(0, 180, 255, 0.2);">
+                        <div style="font-size: 2.5rem; color: var(--quantum-blue); margin-bottom: 1rem;">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 style="color: var(--terminal-text); margin-bottom: 0.5rem;">Tech Club Lead</h3>
+                        <p style="color: var(--cyber-gray); font-size: 0.9rem;">
+                            Founder and President of Kirinyaga University Computer Science Innovation Club.
+                        </p>
+                    </div>
+                    
+                    <div style="text-align: center; padding: 1.5rem; background: rgba(157, 78, 221, 0.05); border-radius: 10px; border: 1px solid rgba(157, 78, 221, 0.2);">
+                        <div style="font-size: 2.5rem; color: var(--neon-purple); margin-bottom: 1rem;">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 style="color: var(--terminal-text); margin-bottom: 0.5rem;">Research Grant</h3>
+                        <p style="color: var(--cyber-gray); font-size: 0.9rem;">
+                            Received university research grant for "AI Solutions for Small-Scale Agriculture" project.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="cyber-footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="index.html" class="footer-logo">
+                    <i class="fas fa-code"></i> FREDERICK_IRUNGU
+                </a>
+                
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/frederick-nyoike" class="social-link" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/frederick-nyoike" class="social-link" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/frederick_tech" class="social-link" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://wa.me/254701723500" class="social-link" target="_blank" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span id="currentYear">2024</span> Frederick Nyolke Irungu. All Rights Reserved.</p>
+                <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--cyber-gray);">
+                    <i class="fas fa-terminal" style="margin-right: 0.5rem;"></i>
+                    Built with Quantum Precision | Kirinyaga University Student
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

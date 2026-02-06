@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fredrick Nyoike Irungu | Future Aspirations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Future aspirations specific styles */
+        .goals-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .goal-card {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 40px 30px;
+            border-radius: var(--radius);
+            border: 1px solid rgba(100, 255, 218, 0.1);
+            backdrop-filter: blur(10px);
+            transition: var(--transition);
+            text-align: center;
+        }
+        
+        .goal-card:hover {
+            transform: translateY(-10px);
+            border-color: rgba(100, 255, 218, 0.3);
+            box-shadow: 0 15px 30px rgba(2, 12, 27, 0.5);
+        }
+        
+        .goal-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(100, 255, 218, 0.05);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            color: var(--accent);
+            font-size: 2rem;
+            transition: var(--transition);
+            border: 1px solid rgba(100, 255, 218, 0.2);
+        }
+        
+        .goal-card:hover .goal-icon {
+            background: rgba(100, 255, 218, 0.1);
+            transform: scale(1.1);
+        }
+        
+        .goal-timeline {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            color: var(--accent);
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+        
+        .vision-section {
+            margin-top: 80px;
+            padding: 60px;
+            background: rgba(100, 255, 218, 0.03);
+            border-radius: var(--radius);
+            border: 1px solid rgba(100, 255, 218, 0.1);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/254701723500?text=Hi%20Fredrick,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with me</span>
+    </a>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo"><i class="fas fa-terminal"></i>Fredrick</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="childhood.html">Childhood</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="future.html">Future</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Future Aspirations Section -->
+    <section id="future">
+        <div class="container">
+            <div class="section-header">
+                <h2>Future Aspirations</h2>
+                <p>My goals, dreams, and vision for the coming years</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="images/future.jpg" alt="Future Vision" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
+                </div>
+                <div class="about-text">
+                    <h3>My Vision</h3>
+                    <p>I envision a future where technology serves humanity in meaningful ways, solving real-world problems and creating opportunities for growth and development across Africa.</p>
+                    <p>My personal mission is to contribute to this vision by developing innovative software solutions, mentoring aspiring developers, and building technologies that address local challenges.</p>
+                    <p>I believe in the transformative power of education and technology to create positive change in communities.</p>
+                </div>
+            </div>
+            
+            <div class="goals-grid">
+                <div class="goal-card">
+                    <div class="goal-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Complete My Degree</h3>
+                    <p>Graduate with a degree in Software Engineering, specializing in AI and Machine Learning applications.</p>
+                    <div class="goal-timeline">
+                        <i class="far fa-calendar-alt"></i> 2024 - 2028
+                    </div>
+                </div>
+                
+                <div class="goal-card">
+                    <div class="goal-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Professional Growth</h3>
+                    <p>Gain experience at innovative tech companies, working on scalable solutions and cutting-edge technologies.</p>
+                    <div class="goal-timeline">
+                        <i class="far fa-calendar-alt"></i> 2028 - 2029
+                    </div>
+                </div>
+                
+                <div class="goal-card">
+                    <div class="goal-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Tech Entrepreneurship</h3>
+                    <p>Launch a startup focused on educational technology or fintech solutions for the African market.</p>
+                    <div class="goal-timeline">
+                        <i class="far fa-calendar-alt"></i> 2029  - 2030
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vision-section">
+                <h3 style="text-align: center; margin-bottom: 30px; color: var(--accent);">Long-term Impact Goals</h3>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h4>Community Development</h4>
+                        <p>Establish a coding academy in my hometown to train the next generation of software developers, with a focus on empowering young women in tech.</p>
+                        <h4 style="margin-top: 20px;">Open Source Contribution</h4>
+                        <p>Create and maintain open-source projects that solve common problems in software development, particularly those relevant to developing regions.</p>
+                        <h4 style="margin-top: 20px;">Research & Innovation</h4>
+                        <p>Pursue postgraduate studies and contribute to research in artificial intelligence applications for healthcare and agriculture in Africa.</p>
+                    </div>
+                    <div class="about-text">
+                        <h4>Personal Development</h4>
+                        <p>Continuously learn new technologies, obtain relevant certifications (AWS, Google Cloud, etc.), and develop leadership skills.</p>
+                        <h4 style="margin-top: 20px;">Global Perspective</h4>
+                        <p>Work in different tech ecosystems worldwide to gain diverse experiences and bring global best practices back to the African tech scene.</p>
+                        <h4 style="margin-top: 20px;">Mentorship</h4>
+                        <p>Actively mentor students and junior developers, sharing knowledge and creating opportunities for others in the tech community.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Fredrick Nyoike Irungu</h3>
+                    <p>A showcase of my journey as a software engineering student.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="childhood.html">Childhood</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="future.html">Future</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/254701723500"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026   Fredrick Nyoike Irungu. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

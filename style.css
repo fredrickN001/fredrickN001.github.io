@@ -988,4 +988,131 @@ img[onerror] {
     .image-container {
         height: 200px;
     }
+
+}
+/* ===== MOBILE RESPONSIVENESS ===== */
+@media (max-width: 768px) {
+    
+    /* 1. Fix the navigation for mobile */
+    .nav-links {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: rgba(10, 14, 23, 0.98);
+        backdrop-filter: blur(20px);
+        flex-direction: column;
+        padding: 2rem;
+        border-bottom: 1px solid rgba(0, 180, 255, 0.2);
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        z-index: 999;
+        gap: 1rem;
+    }
+    
+    .nav-links.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    /* 2. Adjust hero section for mobile */
+    .hero-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .profile-image-container {
+        width: 280px;
+        height: 280px;
+        order: -1; /* Moves image above text on mobile */
+    }
+    
+    /* 3. Fix layout for content cards */
+    .tech-card {
+        padding: 1.8rem;
+    }
+    
+    /* 4. Adjust grid layouts to single column */
+    .form-row,
+    .contact-info-grid,
+    .hero-buttons {
+        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
+    
+    .hero-buttons {
+        gap: 1rem;
+    }
+    
+    /* 5. Fix timeline for mobile */
+    .tech-timeline {
+        padding-left: 2rem;
+    }
+    
+    .tech-timeline::before {
+        left: 0;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        padding-left: 2.5rem;
+    }
+    
+    .timeline-item:nth-child(even) {
+        left: 0;
+    }
+    
+    /* 6. Adjust image containers */
+    .image-container {
+        height: 250px;
+    }
+    
+    /* 7. Reduce font sizes for better readability */
+    .page-title {
+        font-size: 2.2rem;
+    }
+    
+    .card-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* Extra small devices (phones less than 480px) */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 0 15px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .page-title {
+        font-size: 1.8rem;
+    }
+    
+    .btn {
+        padding: 0.9rem 1.8rem;
+        font-size: 0.9rem;
+    }
+    
+    .profile-image-container {
+        width: 240px;
+        height: 240px;
+    }
+    
+    .tech-card {
+        padding: 1.5rem;
+    }
 }
